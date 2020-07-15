@@ -16,7 +16,7 @@ so_file = "./%s.so" % "mylib" #mol.name
 dll = CDLL(so_file)
 funct = dll.relaxgeom
 funct.argtypes = [POINTER(molgeometry)]
-# RANDOM COMMENT
+# RANDOM COMMENTTTTTT
 symbols = []
 mg = molgeometry()
 xyz = open("source.xyz", "r").readlines()
