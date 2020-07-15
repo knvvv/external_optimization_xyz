@@ -1,6 +1,6 @@
 CC = g++
-LDIR = ../lib
-IDIR = ../include
+LDIR = ./lib
+IDIR = ./include
 CFLAGS = -fPIC -I$(IDIR) -L$(LDIR)
 LIBS = -lgsl -lgslcblas
 OBJ = cfiles/mainrand.o cfiles/cycledef.o cfiles/main.o

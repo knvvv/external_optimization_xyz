@@ -1,13 +1,11 @@
 import networkx as nx
 from copy import deepcopy,copy
 import time
-import pylab
 import subprocess
-import matplotlib.pyplot as plt
 import sympy as sp
 import numpy as np
 from numpy.linalg import norm
-from sympy.core.evaluate import evaluate
+from sympy.core import evaluate
 
 def drawgraph(G):
     edge_colors = ['black' for edge in G.edges()]
